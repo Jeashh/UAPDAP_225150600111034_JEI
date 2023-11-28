@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio|Jeihan Shinta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jeihan Shinta</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#experience">Pengalaman</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jeihan Shinta</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#tentang" onclick="toggleMenu()">Tentang</a></li>
+          <li><a href="#pengalaman" onclick="toggleMenu()">Pengalaman</a></li>
+          <li><a href="#kontak" onclick="toggleMenu()">Kontak</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="fotoprofil.JPG" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Halo! Saya</p>
+        <h1 class="title">Jeihan Shinta Maharani</h1>
+        <p class="section__text__p2">Mahasiswa di Universitas Brawijaya</p>
+        <div id="socials-container">
+          <img
+            src="linkedIn.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/jeihan-shinta-aa056a233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'"
+          />
+          <img
+            src="LogoInsta.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://instagram.com/jei.mhrni?igshid=OGQ5ZDc2ODk2ZA=='"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Kenali Saya Lebih Jauh!</p>
+      <h1 class="title">Tentang Saya</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="fotoprofil2.JPG" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="educationlogo.png" alt="Education icon" class="icon" />
+              <h3>Pendidikan</h3>
+              <p>SMAN 70 Jakarta<br />Universitas Brawijaya</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Halo! Perkenalkan saya Jeihan Shinta Maharani. Saya berasal dari Jakarta dan saat ini berusia 19 tahun. Saat ini saya berkuliah di Universitas Brawijaya, Prodi Pendidikan Teknologi Informasi dengan NIM 225150600111034. Saya memiliki hobi memasak dan travelling. Saya adalah seseorang yang senang untuk mencoba hal baru, berpikir kritis, kreatif dan fleksibel. Selain itu saya juga
+              memiliki kemampuan bekerja sama dalam tim, dapat berkomunikasi dengan baik. Saya memiliki ketertarikan besar dalam dunia digital.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="panah.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+      <br>
+      <br>
+      <p class="section__text__p1">Ketahui pengalaman saya!</p>
+      <h1 class="title">Pengalaman</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Organisasi</h2>
+            <div class="article-container">
+              <article>
+                <img src="checklist.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>BEM FILKOM Aryakarsa</h3>
+                  <p>Staf Muda Kementerian Sosial dan Lingkungan</p>
+                </div>
+              </article>
+              <article>
+                <img src="checklist.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>BEM FILKOM Nawasena</h3>
+                  <p>Staf Ahli Kementerian Sosial dan Lingkungan</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Kepanitiaan</h2>
+            <div class="article-container">
+              <article>
+                <img src="checklist.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Farewell Arunika</h3>
+                  <p>Anggota DDM</p>
+                </div>
+              </article>
+              <article>
+                <img src="checklist.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Filafest</h3>
+                  <p>Anggota Humas</p>
+                </div>
+              </article>
+              <article>
+                <img src="checklist.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Filgreenation</h3>
+                  <p>Anggota DDM</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="panah.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#kontak'" />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Ikuti Saya!</p>
+      <h1 class="title">Kontak Saya</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="gmail.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a>jeashrn@student.ub.ac.id</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="LogoInsta.png" alt="Instagram icon" class="icon contact-icon" />
+          <p><a href="https://instagram.com/jei.mhrni?igshid=OGQ5ZDc2ODk2ZA==">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#experience">Pengalaman</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Jeihan Shinta. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
